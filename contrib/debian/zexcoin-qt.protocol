@@ -1,0 +1,11 @@
+[Protocol]
+exec=zexcoin-qt '%u'
+protocol=zexcoin
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

@@ -1,0 +1,22 @@
+[Unit]
+Description=ZexCoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=zexcoincore
+Group=zexcoincore
+
+Type=forking
+PIDFile=/var/lib/zexcoind/zexcoind.pid
+ExecStart=/usr/bin/zexcoind -daemon -pid=/var/lib/zexcoind/zexcoind.pid \
+-conf=/etc/zexcoincore/zexcoin.conf -datadir=/var/lib/zexcoind -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

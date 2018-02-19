@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=ZexCoin
+Comment=ZexCoin P2P Cryptocurrency
+Comment[fr]=ZexCoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=ZexCoin, eşten eşe kriptografik sanal para birimi
+Exec=zexcoin-qt %u
+Terminal=false
+Type=Application
+Icon=zexcoin128
+MimeType=x-scheme-handler/zexcoin;
+Categories=Office;Finance;

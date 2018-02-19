@@ -1,0 +1,7 @@
+[main]
+host = https://www.transifex.com
+
+[zexcoin.qt-translation-012x]
+file_filter = src/qt/locale/zexcoin_<lang>.ts
+source_file = src/qt/locale/zexcoin_en.ts
+source_lang = en

@@ -1,0 +1,6 @@
+usr/local/bin/zexcoin-qt usr/bin
+share/pixmaps/zexcoin32.xpm usr/share/pixmaps
+share/pixmaps/zexcoin16.xpm usr/share/pixmaps
+share/pixmaps/zexcoin128.png usr/share/pixmaps
+debian/zexcoin-qt.desktop usr/share/applications
+debian/zexcoin-qt.protocol usr/share/kde4/services/
